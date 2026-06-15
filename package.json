@@ -1,0 +1,13 @@
+{
+  "name": "nourtamuda",
+  "version": "1.0.0",
+  "description": "Centre de soutien scolaire - Tétouan",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build completed'"
+  },
+  "dependencies": {
+    "pg": "^8.11.0",
+    "bcryptjs": "^2.4.3"
+  }
+}

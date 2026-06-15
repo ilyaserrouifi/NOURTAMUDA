@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.js": { "runtime": "nodejs18.x" },
+    "api/admin/*.js": { "runtime": "nodejs18.x" },
+    "api/admin/*/*.js": { "runtime": "nodejs18.x" }
+  },
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/admin", "dest": "/admin.html" },
+    { "src": "/api/(.*)", "dest": "/api/$1" }
+  ]
+}
